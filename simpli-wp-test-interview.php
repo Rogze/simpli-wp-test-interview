@@ -25,6 +25,7 @@ class SimpliCeremonyStreamingPlugin extends Singleton
         new CreatePostForm();
 
         register_block_type(plugin_dir_path( __FILE__ ) . '/build/demo');
+        register_block_type(__DIR__ . '/build/reverse-text');
     }
 
 }
